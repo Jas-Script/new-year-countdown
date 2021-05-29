@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(sky.jpg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    background-size: cover;
+    background-position: center center;
+    font-family: 'Open Sans', sans-serif;
+}
+.countdown-container{
+    display: flex;
+    justify-content: center;
+    border: 5px solid black;
+    border-radius: 20px;
+}
+.countdown-container:hover{
+    cursor: default;
+    transform: scale(1.05);
+}
+h1{
+    font-size: 4rem;
+    margin-top: 5rem;
+    border: 5px solid black;
+    /* border-radius: 20px; */
+    
+    
+}
+h1:hover{
+    cursor: default;
+    transform: scale(1.05);
+}
+.big-text{
+    font-size: 6rem;
+    line-height: 1;
+    margin: 0 2rem;
+    font-weight: bold;
+}
+.elem{
+    text-align: center;
+}
+.elem span{
+    font-size: 2rem;
+}
